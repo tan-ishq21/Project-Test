@@ -3,7 +3,7 @@
 import { useEffect, useState } from "react";
 import { Modal } from "../ui/modal";
 import { Button } from "../ui/button";
-import {useReducer} from "react";
+
 interface AlertModalProps {
     isOpen: boolean;
     onClose: () => void;
